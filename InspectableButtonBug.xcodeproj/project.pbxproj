@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E40CA7DA1EF47055002D273A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E4A69E261EED3D2F0009C6A9 /* InspectableButtonBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InspectableButtonBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A69E291EED3D2F0009C6A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4A69E2B1EED3D2F0009C6A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +41,7 @@
 		E4A69E1D1EED3D2F0009C6A9 = {
 			isa = PBXGroup;
 			children = (
+				E40CA7DA1EF47055002D273A /* README.md */,
 				E4A69E281EED3D2F0009C6A9 /* InspectableButtonBug */,
 				E4A69E271EED3D2F0009C6A9 /* Products */,
 			);
@@ -100,6 +102,7 @@
 					E4A69E251EED3D2F0009C6A9 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = KC7UKYADNB;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -272,7 +275,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fr.sgintech.radar.InspectableButtonBug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -285,7 +289,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fr.sgintech.radar.InspectableButtonBug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};

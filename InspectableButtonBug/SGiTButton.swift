@@ -9,7 +9,17 @@
 import UIKit
 import CoreGraphics
 
-
+/** Shell protocol providing extended behavior for UIButton.
+ 
+ Important: this protocol must be marked with `@objc` annotation
+ to prevent Xcode to crash when trying to layout storyboard.
+ 
+ The fix looks obvious, but you need to know :-/
+ 
+ Note: an alternate option could be to implement `NSObjectProtocol`
+ 
+ */
+@objc
 public protocol SGiTButtonAnimator
 {
     // An empty protocol used as type reference
@@ -63,6 +73,6 @@ open class SGiTButton: UIButton
     @IBInspectable var is3DPressed: Bool = true
     
     // BUG: uncomment the line bellow and IB will crash on layout
-    // private var buttonAnimator: SGiTButtonAnimator?
+    private var buttonAnimator: SGiTButtonAnimator?
 }
 
